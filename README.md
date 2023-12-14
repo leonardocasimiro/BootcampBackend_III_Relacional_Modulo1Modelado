@@ -47,10 +47,12 @@ Para esta práctica se nos solicita:
 
 ![Diagrama Crow's Foot](./img/DiagramaCrowsFoot.png)
 
-### TO DO
-Para esta practica hemos intentado aplicar dos patrones de diseño.
+### Formas Normales
+Para esta práctica hemos intentado aplicar dos "Formas Normales". Con el fin de seguir unas normas y mantener una integrigas referencial. De las 6, aplicaremos las 2 primeras.
 
 | Patron | Descripcion | Ejemplo |
 | ------ | ------ | ------ |
-| Subset Pattern | Nos permite manejar documentos grandes |Tengo un documento de reseñas, pero he creado un reseñas_last_3 en el docuemento videos (tendra las 3 ultimas reseña) para evitar tirar de un documento reseñas grande.  |
-| Extended ref | Evita tener que hacer "joins" |En el documento suscriptores he embebido la direccion para tener que tirar de doble consulta a este dato cuando adquiramos del cliente. Se ha hecho un objeto que bien podria ser un array de objetos si quisieramos añadir varias direcciones. |
+| 1NF | Valores Atómicos | Cada campo de una entidad es de un tipo.  |
+| 2NF | Todos los campor dependen SOLO de la PK | rompemos entidades para evitar duplicidades |
+| 3NF | Ningun atributo es dependiente transitivamente  | lo vemos en la direccion, evitamos la duplicidad y creamos tablas para provincia....etc |
+
