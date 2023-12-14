@@ -47,7 +47,7 @@ Para esta práctica se nos solicita:
 
 ![Diagrama Crow's Foot](./img/DiagramaCrowsFoot.png)
 
-
+### TO DO
 Para esta practica hemos intentado aplicar dos patrones de diseño.
 
 | Patron | Descripcion | Ejemplo |
