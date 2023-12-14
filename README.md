@@ -1,2 +1,0 @@
-# BootcampBackend_III_Relacional_Modulo1Modelado
-BootcampBackend_III_Relacional_Modulo1Modelado
